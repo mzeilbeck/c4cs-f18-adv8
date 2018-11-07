@@ -27,10 +27,16 @@ def calculate(arg):
             result = func(val1, val2)
             stack.append(result)
     return stack[-1]
-
+def LOL():
+    print("Hey did you see the video of the Uber driver who had several Ottawa Senators as passengers?")
+    print("The players were trash talking their organization. It's sooooo funny. What a dumpster fire of an organization.")
+    print("I think Matt Duchene said something about how he doesn't pay attention to team meatings and that their coach doesn't teach them anything.")
+    print(calculate("6 7 *")
+    print("Even the Senators' own players know their team and organization suck.")
 def main():
     while True:
         print(calculate(input('rpn calc> ')))
 
 if __name__ == '__main__':
     main()
+    LOL()
