@@ -2,9 +2,8 @@ language: python
 python:
   - "3.5"
 install:
-  - pip3 install python-coveralls
+  - pip3 install coveralls
 script:
-    - make test
-    - py.test coveralls/tests.py --doctest-modules --pep8 coveralls -v --cov coveralls --cov-report term-missing
+  - make test
 after_success:
   - coveralls
